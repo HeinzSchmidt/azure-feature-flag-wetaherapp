@@ -24,7 +24,7 @@ namespace feature_flags
                     configuration.AddAzureAppConfiguration(options =>
                     {
                         options
-                            .Connect(new Uri("https://az-uks-sbx-det111-appconfig.azconfig.io"), new DefaultAzureCredential())
+                            .Connect(new Uri("https://az-uks-sbx-det111-appconfig01.azconfig.io"), new DefaultAzureCredential())
                             .UseFeatureFlags();
                     });
                 })
